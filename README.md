@@ -1,2 +1,2 @@
 # design-patterns
-design-patterns in spring
+Design Patterns project for Spring Boot
