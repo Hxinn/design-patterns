@@ -12,6 +12,11 @@ import java.lang.reflect.Proxy;
  */
 public class MetricsCollectorProxy {
 
+    /**
+     * 创建代理对象
+     * @param proxyObj 原始类
+     * @return 代理类
+     */
     public Object createProxy(Object proxyObj){
         Class<?>[] interfaces = proxyObj.getClass().getInterfaces();
         DynamicProxyHandler dynamicProxyHandler = new DynamicProxyHandler(proxyObj);
