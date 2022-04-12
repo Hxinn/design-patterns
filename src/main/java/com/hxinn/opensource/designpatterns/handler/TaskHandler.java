@@ -24,6 +24,6 @@ public class TaskHandler implements ApplicationContextAware {
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-
+        log.info("application context");
     }
 }
